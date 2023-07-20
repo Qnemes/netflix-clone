@@ -21,6 +21,6 @@ In the project directory, you can run:
 It runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Or you can visit it directly by visiting the [link](reactnetflix-app.netlify.app)
+Or you can visit it directly by visiting the [link](https://reactnetflix-app.netlify.app/)
 
 ![Preview](public/netflix-preview.png)
