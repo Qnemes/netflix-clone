@@ -37,6 +37,7 @@ export const BrowseContainer = ({ slides }) => {
     } else {
       setSlidesRows(slides[category]);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchTerm]);
 
   return profile.displayName ? (
