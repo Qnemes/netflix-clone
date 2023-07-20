@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Profiles /> renders the <Profiles /> with populated data 1`] = `
+<div
+  class="profiles__Container-sc-13oa3x9-0 dEuCjW"
+>
+  <h1
+    class="profiles__Title-sc-13oa3x9-1 gIvAGc"
+  >
+    Who's watching?
+  </h1>
+  <ul
+    class="profiles__List-sc-13oa3x9-2 hTiEsx"
+  >
+    <li
+      class="profiles__User-sc-13oa3x9-5 gtkxwT"
+    >
+      <img
+        class="profiles__Picture-sc-13oa3x9-4 jexKji"
+        data-testid="profile-picture"
+        src="/images/misc/loading.gif"
+      />
+      <p
+        class="profiles__Name-sc-13oa3x9-3 hgHQJd"
+      >
+        Qnemes
+      </p>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Profiles /> renders the <Profiles /> with populated data but misc profile image 1`] = `
+<div
+  class="profiles__Container-sc-13oa3x9-0 dEuCjW"
+>
+  <h1
+    class="profiles__Title-sc-13oa3x9-1 gIvAGc"
+  >
+    Who's watching?
+  </h1>
+  <ul
+    class="profiles__List-sc-13oa3x9-2 hTiEsx"
+  >
+    <li
+      class="profiles__User-sc-13oa3x9-5 gtkxwT"
+    >
+      <img
+        class="profiles__Picture-sc-13oa3x9-4 jexKji"
+        data-testid="profile-picture-misc"
+        src="/images/misc/loading.gif"
+      />
+      <p
+        class="profiles__Name-sc-13oa3x9-3 hgHQJd"
+      >
+        Qnemes
+      </p>
+    </li>
+  </ul>
+</div>
+`;

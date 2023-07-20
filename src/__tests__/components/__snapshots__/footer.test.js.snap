@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> renders the <Footer /> with populated data 1`] = `
+<div
+  class="footer__Container-sc-1g9jk0u-0 dSfzWG"
+>
+  <p
+    class="footer__Title-sc-1g9jk0u-4 FXavz"
+  >
+    Questions? Contact us
+  </p>
+  <div
+    class="footer__Break-sc-1g9jk0u-6 kxTKLo"
+  />
+  <div
+    class="footer__Row-sc-1g9jk0u-2 drCgcN"
+  >
+    <div
+      class="footer__Column-sc-1g9jk0u-1 bFUvGK"
+    >
+      <a
+        class="footer__Link-sc-1g9jk0u-3 lkwoXv"
+        href="https://help.netflix.com/support/412"
+      >
+        FAQ
+      </a>
+      <a
+        class="footer__Link-sc-1g9jk0u-3 lkwoXv"
+        href="http://ir.netflix.com/"
+      >
+        Investor Relations
+      </a>
+      <a
+        class="footer__Link-sc-1g9jk0u-3 lkwoXv"
+        href="https://www.netflix.com/watch"
+      >
+        Ways to Watch
+      </a>
+      <a
+        class="footer__Link-sc-1g9jk0u-3 lkwoXv"
+        href="https://help.netflix.com/legal/corpinfo"
+      >
+        Corporate Information
+      </a>
+      <a
+        class="footer__Link-sc-1g9jk0u-3 lkwoXv"
+        href="https://www.netflix.com/pl-en/browse/genre/839338"
+      >
+        Netflix Originals
+      </a>
+    </div>
+    <div
+      class="footer__Column-sc-1g9jk0u-1 bFUvGK"
+    >
+      <a
+        class="footer__Link-sc-1g9jk0u-3 lkwoXv"
+        href="https://help.netflix.com/"
+      >
+        Help Center
+      </a>
+      <a
+        class="footer__Link-sc-1g9jk0u-3 lkwoXv"
+        href="https://jobs.netflix.com/jobs"
+      >
+        Jobs
+      </a>
+      <a
+        class="footer__Link-sc-1g9jk0u-3 lkwoXv"
+        href="https://help.netflix.com/legal/termsofuse"
+      >
+        Terms of Use
+      </a>
+      <a
+        class="footer__Link-sc-1g9jk0u-3 lkwoXv"
+        href="https://help.netflix.com/contactus"
+      >
+        Contact Us
+      </a>
+    </div>
+    <div
+      class="footer__Column-sc-1g9jk0u-1 bFUvGK"
+    >
+      <a
+        class="footer__Link-sc-1g9jk0u-3 lkwoXv"
+        href="https://www.netflix.com/youraccount"
+      >
+        Account
+      </a>
+      <a
+        class="footer__Link-sc-1g9jk0u-3 lkwoXv"
+        href="https://www.netflix.com/redeem"
+      >
+        Redeem Gift Cards
+      </a>
+      <a
+        class="footer__Link-sc-1g9jk0u-3 lkwoXv"
+        href="https://help.netflix.com/legal/privacy"
+      >
+        Privacy
+      </a>
+      <a
+        class="footer__Link-sc-1g9jk0u-3 lkwoXv"
+        href="https://fast.com/"
+      >
+        Speed Test
+      </a>
+    </div>
+    <div
+      class="footer__Column-sc-1g9jk0u-1 bFUvGK"
+    >
+      <a
+        class="footer__Link-sc-1g9jk0u-3 lkwoXv"
+        href="https://media.netflix.com/"
+      >
+        Media Center
+      </a>
+      <a
+        class="footer__Link-sc-1g9jk0u-3 lkwoXv"
+        href="https://www.netflix.com/gift-cards"
+      >
+        Buy Gift Cards
+      </a>
+      <a
+        class="footer__Link-sc-1g9jk0u-3 lkwoXv"
+        href="#"
+      >
+        Cookie Preferences
+      </a>
+      <a
+        class="footer__Link-sc-1g9jk0u-3 lkwoXv"
+        href="https://help.netflix.com/legal/notices"
+      >
+        Legal Notices
+      </a>
+    </div>
+  </div>
+  <div
+    class="footer__Break-sc-1g9jk0u-6 kxTKLo"
+  />
+  <p
+    class="footer__Text-sc-1g9jk0u-5 ewriOe"
+  >
+    Netflix.com
+  </p>
+</div>
+`;
