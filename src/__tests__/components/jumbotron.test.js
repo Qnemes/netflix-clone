@@ -22,10 +22,12 @@ describe('<Jumbotron />', () => {
     );
 
     expect(getByText('Enjoy on your TV.')).toBeTruthy();
-    expect(getByAltText('Tiger King on Netflix')).toBeTruthy();
+    expect(getByAltText('Tiger King on Zetflix')).toBeTruthy();
     expect(getByTestId('1-jumbo-image')).toBeTruthy();
     expect(
-      getByText('Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.')
+      getByText(
+        'Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.'
+      )
     ).toBeTruthy();
     expect(container.firstChild).toMatchSnapshot();
   });

@@ -10,29 +10,23 @@ describe('<Form />', () => {
       <Form>
         <Form.Title>Sign in now</Form.Title>
         <Form.Base>
-          <Form.Input
-            type="email"
-            placeholder="me@example.com"
-            required
-          />
-          <Form.Input
-            type="password"
-            placeholder="********"
-            required
-          />
-          <Form.Submit type="submit" disabled>Sign In</Form.Submit>
+          <Form.Input type="email" placeholder="me@example.com" required />
+          <Form.Input type="password" placeholder="********" required />
+          <Form.Submit type="submit" disabled>
+            Sign In
+          </Form.Submit>
         </Form.Base>
         <Form.Text>
-          New to Netflix? <Form.Link to="/signup">Sign up now!</Form.Link>
+          New to Zetflix? <Form.Link to="/signup">Sign up now!</Form.Link>
         </Form.Text>
         <Form.TextSmall>
           This page is protected by Google reCAPTCHA to ensure you`re not a bot. Learn more.
-      </Form.TextSmall>
+        </Form.TextSmall>
       </Form>
     );
 
     expect(
-      getByText("This page is protected by Google reCAPTCHA to ensure you`re not a bot. Learn more.")
+      getByText('This page is protected by Google reCAPTCHA to ensure you`re not a bot. Learn more.')
     ).toBeTruthy();
     expect(getByText('Sign in now')).toBeTruthy();
     expect(getByText('Sign In')).toBeTruthy();

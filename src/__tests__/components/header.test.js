@@ -9,7 +9,7 @@ describe('<Header />', () => {
     const { container, getByText, getByTestId, debug } = render(
       <Header>
         <Header.Frame>
-          <Header.Logo to="/" src="/logo.svg" alt="Netflix" />
+          <Header.Logo to="/" src="/logo.svg" alt="Zetflix" />
           <Header.TextLink active="true">Hello I am a link!</Header.TextLink>
         </Header.Frame>
       </Header>
@@ -24,7 +24,7 @@ describe('<Header />', () => {
     const { container, getByText, queryByTestId, debug } = render(
       <Header bg={false}>
         <Header.Frame>
-          <Header.Logo to="/" src="/logo.svg" alt="Netflix" />
+          <Header.Logo to="/" src="/logo.svg" alt="Zetflix" />
           <Header.ButtonLink>Sign In</Header.ButtonLink>
           <Header.TextLink active={false}>Hello I am a link!</Header.TextLink>
         </Header.Frame>
@@ -38,19 +38,19 @@ describe('<Header />', () => {
 
   it('renders the full <Header> with a background', () => {
     const { container, getByText, getByTestId } = render(
-      <Header src='jokerBG' dontShowOnSmallViewPort >
+      <Header src="jokerBG" dontShowOnSmallViewPort>
         <Header.Frame>
           <Header.Group>
-            <Header.Logo to="/" src="/images/logo.svg" alt="Netflix" />
-            <Header.TextLink active={false} onClick={() => { }}>
+            <Header.Logo to="/" src="/images/logo.svg" alt="Zetflix" />
+            <Header.TextLink active={false} onClick={() => {}}>
               Series
-          </Header.TextLink>
-            <Header.TextLink active onClick={() => { }}>
+            </Header.TextLink>
+            <Header.TextLink active onClick={() => {}}>
               Films
-          </Header.TextLink>
+            </Header.TextLink>
           </Header.Group>
           <Header.Group>
-            <Header.Search searchTerm="Joker" setSearchTerm={() => { }} />
+            <Header.Search searchTerm="Joker" setSearchTerm={() => {}} />
             <Header.Profile>
               <Header.Picture src="/images/qnemes.png" />
               <Header.Dropdown>
@@ -59,7 +59,7 @@ describe('<Header />', () => {
                   <Header.TextLink>Qnemes</Header.TextLink>
                 </Header.Group>
                 <Header.Group>
-                  <Header.TextLink onClick={() => { }}>Sign out</Header.TextLink>
+                  <Header.TextLink onClick={() => {}}>Sign out</Header.TextLink>
                 </Header.Group>
               </Header.Dropdown>
             </Header.Profile>
