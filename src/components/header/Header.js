@@ -16,7 +16,7 @@ import {
   Search,
   SearchIcon,
   SearchInput,
-  Text
+  Text,
 } from './styles/header';
 
 export default function Header({ bg = true, children, ...restProps }) {
@@ -30,7 +30,7 @@ export default function Header({ bg = true, children, ...restProps }) {
 }
 
 Header.PlayButton = function HeaderPlayButton({ children, ...restProps }) {
-  return <PlayButton {...restProps}>{children}</PlayButton>
+  return <PlayButton {...restProps}>{children}</PlayButton>;
 };
 
 Header.Picture = function HeaderPicture({ src, ...restProps }) {
@@ -54,7 +54,10 @@ Header.Search = function HeaderSearch({ searchTerm, setSearchTerm, ...restProps 
 
   return (
     <Search {...restProps}>
-      <SearchIcon data-testid="search-click" onClick={() => setIsSearchActive((isSearchActive) => !isSearchActive)}>
+      <SearchIcon
+        data-testid="search-click"
+        onClick={() => setIsSearchActive((isSearchActive) => !isSearchActive)}
+      >
         <img src="images/icons/search.png" alt="Search" />
       </SearchIcon>
       <SearchInput
@@ -65,15 +68,15 @@ Header.Search = function HeaderSearch({ searchTerm, setSearchTerm, ...restProps 
         data-testid="search-input"
       />
     </Search>
-  )
+  );
 };
 
 Header.Feature = function HeaderFeature({ children, ...restProps }) {
-  return <Feature {...restProps}>{children}</Feature>
+  return <Feature {...restProps}>{children}</Feature>;
 };
 
 Header.FeatureHeading = function HeaderFeatureHeading({ children, ...restProps }) {
-  return <FeatureHeading {...restProps}>{children}</FeatureHeading>
+  return <FeatureHeading {...restProps}>{children}</FeatureHeading>;
 };
 
 Header.Dropdown = function HeaderDropdown({ children, ...restProps }) {
@@ -81,7 +84,7 @@ Header.Dropdown = function HeaderDropdown({ children, ...restProps }) {
 };
 
 Header.Text = function HeaderText({ children, ...restProps }) {
-  return <Text {...restProps}>{children}</Text>
+  return <Text {...restProps}>{children}</Text>;
 };
 
 Header.TextLink = function HeaderTextLink({ children, ...restProps }) {
